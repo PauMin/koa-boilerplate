@@ -1,0 +1,32 @@
+{
+  "name": "koa-boilerplate",
+  "version": "1.0.0",
+  "description": "Koa boilerplate application for bootstraping your NodeJS web server",
+  "main": "app/server.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon --exec babel-node app/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PauMin/koa-boilerplate.git"
+  },
+  "keywords": [
+    "koa",
+    "boilerplate",
+    "server",
+    "backend"
+  ],
+  "author": "PauMin",
+  "license": "GPL-V3",
+  "bugs": {
+    "url": "https://github.com/PauMin/koa-boilerplate/issues"
+  },
+  "homepage": "https://github.com/PauMin/koa-boilerplate#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "koa": "^2.11.0",
+    "nodemon": "^2.0.2"
+  }
+}
