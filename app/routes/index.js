@@ -1,0 +1,10 @@
+import Router from '@koa/router';
+
+const router = new Router();
+
+router.get('/', (ctx, next) => {
+    ctx.body = 'Hello World!';
+});
+
+export const routes = router.routes();
+export const allowedMethods = router.allowedMethods();
